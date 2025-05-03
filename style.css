@@ -466,7 +466,7 @@ grid-template-columns: repeat(2,0.5fr);
 
 
 /*  Responsive Styles */
-@media  (max-width: 480px) {
+@media  (max-width: 420px) {
     nav {
       padding: 20px;
     }
