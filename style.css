@@ -1,0 +1,731 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header{
+
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+nav{
+    padding: 29px 120px;
+    height: fit-content;
+    margin:  auto;
+
+
+}
+.nav-links{
+width: 100%;
+  padding: 9px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    border-radius: 18px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+
+
+}
+.nav-links a{
+    padding: 1.2rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    font-size: 1.9rem;
+}
+.nav-links a.active{
+    color: #65AEF2;
+}
+
+
+
+.dot-icon{
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+}
+.dot.active{
+    color:#65AEF2;
+}
+
+.h12{
+    font-family:"Inter", sans-serif; 
+    padding-top: 12rem;
+    padding-bottom: -2rem;
+    padding-left: 8rem;
+    margin-top: 6rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: 4rem;
+}
+
+/*book room*/
+.Room{
+    margin: 3.5rem 4.5rem;
+    border-radius: 2rem;
+    background-color: #E9F3F6;
+    align-items: center;
+    justify-content: center;
+
+}
+.Bookh1{
+    text-align: center;
+    font-family: "Inter", sans-serif; ;
+   padding-top: .6rem;
+   padding-bottom: 3rem;
+}
+.Bookh1 h2{
+    font-size: 3rem;
+
+}
+.Bookh1 p{
+    font-size: 1.8rem;
+    margin-top: -1.5rem;
+}
+.boxstore-text{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: "Inter", sans-serif; ;
+   width: 100%;
+    font-weight: bold;
+    padding-left: 6rem;
+    font-size: 1.2rem;
+
+}
+.boxstore{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 2rem;
+ margin-left: 4rem;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    width: 100%;
+  
+
+}
+.box1{
+    background-color: #FFFFFF;
+  padding: .8rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  gap: 2rem;
+  font-family: "Inter", sans-serif; 
+  width: 17rem;
+  margin-left: 1.5rem;
+
+  & img{
+ size: 2rem;
+  }
+    
+}
+
+
+.box5{
+
+& p{
+    margin-left: -19rem;
+    list-style: bold;
+    font-family: "Inter", sans-serif; 
+}
+
+margin-top: -4rem;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.box4{
+    background-color: #FFFFFF;
+  padding: .8rem;
+  width:30rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+width: 20rem;
+  font-family: "Inter", sans-serif; ;
+    
+}
+.box3{
+    background-color: #65AEF2;
+  padding: .8rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Inter", sans-serif; ;
+  width: 15rem;
+}
+
+
+
+
+
+
+/*Rooms section*/
+.Rooms{
+background-color: #F3F3F3;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    & img{
+        width: 100%;
+    }
+
+ 
+}
+.rooms1{
+        width: 100%;
+   
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.rooms2{
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+/*card section*/
+.main1-content{
+    margin-left: 3rem;
+}
+
+.special-offer h3{
+    font-size: 2rem;
+    font-family: "Inter", sans-serif; 
+ 
+    color: #65AEF2;
+    margin-bottom: -1.5rem;
+    width: 100%;
+
+}
+.Best-offer{
+ 
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ justify-content: space-between;
+
+}
+
+.Exaer {
+    font-family: "Inter", sans-serif; 
+ font-size: 2rem;
+
+ & p{
+    font-size: 1.9rem;
+ }
+ }
+.Exaer h1{
+    font-size: 4.5rem;
+   
+}
+.view{
+    font-family: "Inter", sans-serif; 
+    padding-left:30rem ;
+    padding-top: 4rem;
+    color: #65AEF2;
+    font-size: 1.6rem;
+ }
+
+
+
+
+.main-content{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+margin-bottom: 4rem;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.card
+{
+    border-radius: 50px;
+
+    text-align: center;
+    width: 80%;
+    padding:2rem;
+height: 90%;
+    box-shadow: 4px 3px 10px 10px rgba(0, 0, 0, 0.10);
+& img{
+    width: 100%;
+}
+}
+.content h2 {
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif; 
+    text-align: left;
+    color: #5E5E5E;
+}
+.content1 h1{
+   justify-content: left;
+   text-align: left;
+    font-size: 1.8rem;
+    font-family: "Inter", sans-serif; 
+
+}
+.content1 p{
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif; 
+    margin-top: -1rem;
+    color: #5E5E5E;
+    display: flex;
+
+    
+}
+.metting{
+align-items: center;
+justify-content: space-around;
+display: grid;
+grid-template-columns: repeat(2,0.5fr);
+
+.icon2{
+    margin-left: 8rem;
+}
+
+}
+
+
+
+.price {
+    font-size: 3rem;
+    font-family: "Inter", sans-serif; 
+    padding: 4rem;
+
+
+    .amount{
+        font-weight: bold;
+    }
+
+    .pariod{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+/*futter*/
+.futter{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+
+    & .img{
+     display: none;
+    }
+}
+
+
+
+
+.Newsleeter{
+    width: 60%;
+    grid-template-rows: repeat(3.1fr);
+
+
+    & img{
+  
+        padding-left: 35%;
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+
+    }
+
+}
+.sixe1{
+    margin: 10rem;
+
+    & h1{
+        font-family: "Inter", sans-serif;   
+        font-size: 2rem; 
+        margin-left: -3rem;
+    }
+}
+.input{
+    margin-left: -3rem;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+
+.input input{
+    font-size: 1.2rem;
+    font-style: italic;
+
+}
+.input input::placeholder{
+    color:#D9D9D9;
+    
+}
+  .input button {
+    background-color: #4aa9ff;
+    color:#f5f2f2;
+    border: none;
+
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+ 
+  }
+
+  .subscribe-box button:hover {
+    background-color: #1f8fe5;
+  }
+
+
+.Hotel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: -3rem;
+    margin-top: 4rem;
+
+}
+
+
+
+.box2{
+    background-color: black;
+    width: 50%;
+   left: -2rem;
+    display: grid;
+    grid-template-rows: repeat(3,.5fr);
+
+}
+
+.box2 a{
+    background-color: black;
+    color:white;
+    font-family: "Inter", sans-serif; 
+    text-decoration: none;
+   padding-bottom: rem;
+    padding-left: -2rem;
+
+}
+
+
+
+.copyright{
+
+    color: #999;
+    font-size: 1rem;
+   margin-top: -1rem;
+    width: 100%;
+    background-color: black;
+  
+
+    .hr{
+        color: #999;
+        width: 24%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & p{
+        font-family: "Inter", sans-serif; 
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+        padding-bottom: 2rem;
+   
+      
+
+    }
+}
+
+
+
+/*  Responsive Styles */
+@media  (max-width: 480px) {
+    nav {
+      padding: 20px;
+    }
+  
+    .nav-links {
+      grid-template-rows: repeat(1, 1fr);
+      font-size: 1rem;
+      padding: 4px;
+      font-size: .1rem;
+      height: 50%;
+
+    
+    }
+  
+    .nav-links a {
+      font-size: .6rem;
+      padding: 0.8rem;
+
+      & img{
+        height: 1.5rem;
+      }
+    }
+  
+    .h12 {
+      padding-left: 2rem;
+      font-size: 2rem;
+      margin-top: 3rem;
+    }
+  
+    .boxstore-text{
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .boxstore {
+      grid-template-columns: 1fr;
+    margin-left: 1rem;
+     
+    }
+.box1{
+    font-size: 1.6rem;
+    width: 14rem;
+}
+.box4{
+    width: 16rem;
+    font-size: 1.2rem;
+    margin-top: -rem;
+}
+
+
+
+  
+    .Rooms {
+      grid-template-columns: 1fr;
+      padding: 2rem;
+    }
+  
+    .Best-offer{
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+   
+    .Hotel {
+      grid-template-columns: 1fr;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .main-content{
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .view {
+      padding-left: 1rem;
+      text-align: center;
+    }
+  .futter{
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+  }
+ 
+    .sixe1 {
+      margin: 2rem;
+      text-align: center;
+      justify-content: center;
+      margin-left: 1rem;
+      & h1{
+        margin-top: 5rem;
+      }
+    
+
+    }
+    .input{
+        margin-left: -3rem;
+        height: 4rem;
+        border-radius:0px 0px 8px 8px;
+    
+   
+      }
+    
+    .input input{
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-left: 5rem;
+        border-radius:8px 0px 0px 8px;
+    }
+    .input input::placeholder{
+        color:#D9D9D9;
+        
+    }
+      .input button {
+        background-color: #4aa9ff;
+        color: rgb(106, 26, 26);
+        border: none;
+    padding-left: 25rem;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+
+        border-radius: 0 8px 8px 0;
+     
+      }
+    
+    
+
+
+
+      .Newsleeter img{
+        margin-bottom: -2rem;
+        margin-top: -4rem;
+      }
+  
+.Hotel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 4rem;
+   margin-left: 1rem;
+
+  .box2{
+    margin-bottom: 6rem;
+  }
+    & a{
+    padding-bottom: .1rem;
+    width: 6rem;
+    margin-top: 1rem;
+    
+ 
+   }
+}
+
+
+ .futter{
+
+
+    .copyright .hr{
+      width: 100%;
+      margin: 0 auto;
+    }
+  }}
+  
+  /* Tablets */
+  @media (min-width: 601px) and (max-width: 1024px) {
+  
+    .nav-links {
+        grid-template-rows: repeat(1, 1fr);
+        font-size: 1rem;
+        padding: -1px;
+        font-size: .1rem;
+        height: 60%;
+  
+      
+      }
+    
+      .nav-links a {
+        font-size: .6rem;
+        padding: 0.5rem;
+        margin-left: -1rem;
+    
+  
+        & img{
+          height: 2.5rem;
+        }
+      }
+    .nav-links a{
+        font-size: 1.5rem;
+        padding: 0.8rem;
+      
+    }
+    .Hotel {
+      grid-template-rows: repeat(2, 1fr);
+    }
+  
+    .view {
+      padding-left: 5rem;
+    }
+    .Rooms{
+        width: 100%;
+        margin-left: -1rem;
+    }
+.Newsleeter img{
+margin-left: -5rem;
+margin-bottom: -2rem;
+margin-top: 3rem;
+}
+
+.boxstore-text{
+    grid-template-columns: fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.boxstore {
+  grid-template-rows:1fr;
+margin-left: 1rem;
+ 
+}
+.box1{
+font-size: 1rem;
+width: 12rem;
+margin-left: .2rem;
+}
+.box4{
+width: 16rem;
+font-size: 1.2rem;
+margin-top: -rem;
+margin-left: -4rem;
+}
+.box3{
+    margin-left: -4rem;
+    width: 11rem;
+
+}
+.input{
+    margin-left: -8rem;
+    height: 4rem;
+    
+    border-radius:0px 0px 8px 8px;
+
+
+  }
+
+.input input{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-left: 5rem;
+    border-radius:8px 0px 0px 8px;
+}
+.input input::placeholder{
+    color:#D9D9D9;
+    
+}
+  .input button{
+    padding-right: 5rem;
+  }
+
+  }
+  
+
+
+
+
